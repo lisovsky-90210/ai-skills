@@ -1,0 +1,17 @@
+<!-- Copyright (c) 2026 Лукашов Роман Александрович <mail@rlukashov.ru>. Условия использования: LICENSE. -->
+<details>
+  <summary>
+    <span class="fold-chevron" aria-hidden="true">›</span>
+    <span class="fold-title">Предыдущий опыт работы<small>4 места работы</small></span>
+    <span class="fold-action"><span class="when-closed">Развернуть</span><span class="when-open">Свернуть</span></span>
+  </summary>
+  <div class="fold-content"><!-- Полные блоки работодателей; число в подписи вычислить из данных. --></div>
+</details>
+<script>
+let previouslyClosed=[];
+addEventListener('beforeprint',()=>{
+  previouslyClosed=[...document.querySelectorAll('details:not([open])')];
+  previouslyClosed.forEach(d=>d.open=true);
+});
+addEventListener('afterprint',()=>previouslyClosed.forEach(d=>d.open=false));
+</script>
