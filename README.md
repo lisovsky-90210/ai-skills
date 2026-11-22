@@ -6,7 +6,7 @@
 
 | Скилл | Назначение | Версия |
 | --- | --- | --- |
-| [HH Resume → HTML CV](skills/hh-resume-to-cv/README.md) | Преобразование экспорта резюме HH в компактное автономное HTML CV с раскрываемыми разделами | 1.0.0 |
+| [HH Resume → HTML CV](skills/hh-resume-to-cv/README.md) | Преобразование резюме выгруженного с HH.ru (HeadHunter) в компактный html CV | 1.0.0 |
 
 ## Использование
 
